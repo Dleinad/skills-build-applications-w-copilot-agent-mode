@@ -27,7 +27,11 @@ DEBUG = True
 
 
 # Allow all hosts
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'cautious-palm-tree-vj66x76x696hw5q4-8000.app.github.dev',
+]
 
 
 # Application definition
